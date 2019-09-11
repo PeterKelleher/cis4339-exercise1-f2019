@@ -10,6 +10,16 @@
   </head>
 
   <body>
+    <div>
+      <h1>Super Hero Database</h1>
+    </div>
+    <div id="header">
+      <p class= "fancy">
+        <%= link_to 'Super Heroes', super_heros_path%>
+        <%= link_to 'Super Powers', super_powers_path%>
+
+      </p>
+    </div>
     <%= yield %>
   </body>
 </html>
